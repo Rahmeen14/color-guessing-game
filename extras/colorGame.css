@@ -1,0 +1,71 @@
+*{
+    font-family: Georgia;
+}
+body{
+    background-color: rgb(23, 23, 23);
+    margin: 0;
+}
+#message{
+
+    font-size: inherit;
+    display: inline-block;
+    color: black;
+    width: 20%;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    height: 150px;
+padding-top: 20px;
+}
+#navi{
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+    background-color: red;
+    padding-bottom: 30%;
+    border-radius: 10%;
+    transition: all 0.5s;
+}
+.container{
+
+
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+span{
+    color: white;
+    font-size: 200%;
+}
+.selected{
+    color: white;
+    background-color: steelblue;
+}
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
+button{
+    border: none;
+    height: 100%;
+    background-color: white;
+    text-transform: uppercase;
+    color: steelblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 1.0s;
+    outline: none;
+}
